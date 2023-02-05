@@ -1,0 +1,51 @@
+#bgi
+{
+  height:auto;
+  background-image:url("image/bgimg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+@media screen and (max-width: 992px)
+{
+    #para
+    {
+      font-size:30px;
+    }
+}
+
+@media screen and (max-width: 720px)
+{
+    #para
+    {
+      display: none;
+    }
+    #title{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+}
+
+a:link,a:visited {
+  background-color: tomato;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+
+#NorthIndian,#SouthIndian,#FastFood,#Chaat,#Veg,#NonVeg,#Northindian,#Southindian,#chaat,#Fastfood,#veg,#nonveg,#northindian,#southindian,#fastfood,#chat,#VEG,#Nonveg
+{
+  display: none;
+}
+
+#n,#s,#f,#d,#h,#j,#o,#i,#F,#e,#k,#l,#a,#b,#c,#g,#m,#p
+{
+  background-position: bottom;
+}
